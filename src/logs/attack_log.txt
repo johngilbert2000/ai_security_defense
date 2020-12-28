@@ -1,0 +1,871 @@
+[I] ◆ HW2_FINAL ❯❯❯ python attack.py                                                                                 (tf2)
+2020-11-24 14:15:09.903898: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-24 14:15:09.903921: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do nothave a GPU set up on your machine.
+2020-11-24 14:15:11.038411: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-24 14:15:11.042627: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-11-24 14:15:11.043242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2020-11-24 14:15:11.043344: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.043415: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.043500: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.043583: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.043681: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.043764: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2020-11-24 14:15:11.049650: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-11-24 14:15:11.049664: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-11-24 14:15:11.049914: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-24 14:15:11.073536: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3199980000 Hz
+2020-11-24 14:15:11.074190: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563e0b502a20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-24 14:15:11.074203: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-11-24 14:15:11.075675: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-24 14:15:11.075685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]
+
+Attacking sepreresnet56_cifar10 with training set
+
+Saving to attacks_train/fgsm_train_0.npy
+Saving to attacks_train/pgd_train_0.npy
+
+Accuracy
+0 FGSM: 100.0% --> 46.400000000000006%
+0 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_1.npy
+Saving to attacks_train/pgd_train_1.npy
+
+Accuracy
+1 FGSM: 100.0% --> 48.6%
+1 PGD:  100.0% --> 4.2%
+
+Saving to attacks_train/fgsm_train_2.npy
+Saving to attacks_train/pgd_train_2.npy
+
+Accuracy
+2 FGSM: 99.8% --> 53.2%
+2 PGD:  99.8% --> 4.0%
+
+Saving to attacks_train/fgsm_train_3.npy
+Saving to attacks_train/pgd_train_3.npy
+
+Accuracy
+3 FGSM: 100.0% --> 50.8%
+3 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_4.npy
+Saving to attacks_train/pgd_train_4.npy
+
+Accuracy
+4 FGSM: 100.0% --> 47.0%
+4 PGD:  100.0% --> 4.0%
+
+Saving to attacks_train/fgsm_train_5.npy
+Saving to attacks_train/pgd_train_5.npy
+
+Accuracy
+5 FGSM: 99.8% --> 51.0%
+5 PGD:  99.8% --> 5.2%
+
+Saving to attacks_train/fgsm_train_6.npy
+Saving to attacks_train/pgd_train_6.npy
+
+Accuracy
+6 FGSM: 100.0% --> 47.8%
+6 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_7.npy
+Saving to attacks_train/pgd_train_7.npy
+
+Accuracy
+7 FGSM: 99.8% --> 48.0%
+7 PGD:  99.8% --> 6.4%
+
+Saving to attacks_train/fgsm_train_8.npy
+Saving to attacks_train/pgd_train_8.npy
+
+Accuracy
+8 FGSM: 100.0% --> 52.400000000000006%
+8 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_9.npy
+Saving to attacks_train/pgd_train_9.npy
+
+Accuracy
+9 FGSM: 100.0% --> 52.400000000000006%
+9 PGD:  100.0% --> 6.6000000000000005%
+
+Saving to attacks_train/fgsm_train_10.npy
+Saving to attacks_train/pgd_train_10.npy
+
+Accuracy
+10 FGSM: 99.8% --> 48.4%
+10 PGD:  99.8% --> 4.8%
+
+Saving to attacks_train/fgsm_train_11.npy
+Saving to attacks_train/pgd_train_11.npy
+
+Accuracy
+11 FGSM: 99.8% --> 54.800000000000004%
+11 PGD:  99.8% --> 5.0%
+
+Saving to attacks_train/fgsm_train_12.npy
+Saving to attacks_train/pgd_train_12.npy
+
+Accuracy
+12 FGSM: 100.0% --> 48.8%
+12 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_13.npy
+Saving to attacks_train/pgd_train_13.npy
+
+Accuracy
+13 FGSM: 100.0% --> 51.0%
+13 PGD:  100.0% --> 3.8%
+
+Saving to attacks_train/fgsm_train_14.npy
+Saving to attacks_train/pgd_train_14.npy
+
+Accuracy
+14 FGSM: 99.8% --> 50.6%
+14 PGD:  99.8% --> 5.2%
+
+Saving to attacks_train/fgsm_train_15.npy
+Saving to attacks_train/pgd_train_15.npy
+
+Accuracy
+15 FGSM: 100.0% --> 47.4%
+15 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_16.npy
+Saving to attacks_train/pgd_train_16.npy
+
+Accuracy
+16 FGSM: 100.0% --> 55.00000000000001%
+16 PGD:  100.0% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_17.npy
+Saving to attacks_train/pgd_train_17.npy
+
+Accuracy
+17 FGSM: 100.0% --> 51.2%
+17 PGD:  100.0% --> 6.4%
+
+Saving to attacks_train/fgsm_train_18.npy
+Saving to attacks_train/pgd_train_18.npy
+
+Accuracy
+18 FGSM: 100.0% --> 49.4%
+18 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_19.npy
+Saving to attacks_train/pgd_train_19.npy
+
+Accuracy
+19 FGSM: 100.0% --> 54.800000000000004%
+19 PGD:  100.0% --> 4.0%
+
+Saving to attacks_train/fgsm_train_20.npy
+Saving to attacks_train/pgd_train_20.npy
+
+Accuracy
+20 FGSM: 100.0% --> 53.800000000000004%
+20 PGD:  100.0% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_21.npy
+Saving to attacks_train/pgd_train_21.npy
+
+Accuracy
+21 FGSM: 100.0% --> 48.199999999999996%
+21 PGD:  100.0% --> 4.3999999999999995%
+
+Saving to attacks_train/fgsm_train_22.npy
+Saving to attacks_train/pgd_train_22.npy
+
+Accuracy
+22 FGSM: 100.0% --> 46.400000000000006%
+22 PGD:  100.0% --> 3.2%
+
+Saving to attacks_train/fgsm_train_23.npy
+Saving to attacks_train/pgd_train_23.npy
+
+Accuracy
+23 FGSM: 99.8% --> 51.2%
+23 PGD:  99.8% --> 3.2%
+
+Saving to attacks_train/fgsm_train_24.npy
+Saving to attacks_train/pgd_train_24.npy
+
+Accuracy
+24 FGSM: 100.0% --> 48.199999999999996%
+24 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_25.npy
+Saving to attacks_train/pgd_train_25.npy
+
+Accuracy
+25 FGSM: 100.0% --> 49.0%
+25 PGD:  100.0% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_26.npy
+Saving to attacks_train/pgd_train_26.npy
+
+Accuracy
+26 FGSM: 100.0% --> 48.6%
+26 PGD:  100.0% --> 3.0%
+
+Saving to attacks_train/fgsm_train_27.npy
+Saving to attacks_train/pgd_train_27.npy
+
+Accuracy
+27 FGSM: 100.0% --> 47.8%
+27 PGD:  100.0% --> 4.2%
+
+Saving to attacks_train/fgsm_train_28.npy
+Saving to attacks_train/pgd_train_28.npy
+
+Accuracy
+28 FGSM: 99.6% --> 52.6%
+28 PGD:  99.6% --> 6.4%
+
+Saving to attacks_train/fgsm_train_29.npy
+Saving to attacks_train/pgd_train_29.npy
+
+Accuracy
+29 FGSM: 100.0% --> 52.400000000000006%
+29 PGD:  100.0% --> 7.000000000000001%
+
+Saving to attacks_train/fgsm_train_30.npy
+Saving to attacks_train/pgd_train_30.npy
+
+Accuracy
+30 FGSM: 99.8% --> 49.6%
+30 PGD:  99.8% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_31.npy
+Saving to attacks_train/pgd_train_31.npy
+
+Accuracy
+31 FGSM: 100.0% --> 48.0%
+31 PGD:  100.0% --> 3.8%
+
+Saving to attacks_train/fgsm_train_32.npy
+Saving to attacks_train/pgd_train_32.npy
+
+Accuracy
+32 FGSM: 100.0% --> 50.4%
+32 PGD:  100.0% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_33.npy
+Saving to attacks_train/pgd_train_33.npy
+
+Accuracy
+33 FGSM: 100.0% --> 51.800000000000004%
+33 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_34.npy
+Saving to attacks_train/pgd_train_34.npy
+
+Accuracy
+34 FGSM: 100.0% --> 47.599999999999994%
+34 PGD:  100.0% --> 4.0%
+
+Saving to attacks_train/fgsm_train_35.npy
+Saving to attacks_train/pgd_train_35.npy
+
+Accuracy
+35 FGSM: 100.0% --> 50.8%
+35 PGD:  100.0% --> 6.2%
+
+Saving to attacks_train/fgsm_train_36.npy
+Saving to attacks_train/pgd_train_36.npy
+
+Accuracy
+36 FGSM: 99.6% --> 53.0%
+36 PGD:  99.6% --> 3.5999999999999996%
+
+Saving to attacks_train/fgsm_train_37.npy
+Saving to attacks_train/pgd_train_37.npy
+
+Accuracy
+37 FGSM: 100.0% --> 52.400000000000006%
+37 PGD:  100.0% --> 3.0%
+
+Saving to attacks_train/fgsm_train_38.npy
+Saving to attacks_train/pgd_train_38.npy
+
+Accuracy
+38 FGSM: 100.0% --> 50.2%
+38 PGD:  100.0% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_39.npy
+Saving to attacks_train/pgd_train_39.npy
+
+Accuracy
+39 FGSM: 100.0% --> 48.199999999999996%
+39 PGD:  100.0% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_40.npy
+Saving to attacks_train/pgd_train_40.npy
+
+Accuracy
+40 FGSM: 100.0% --> 51.4%
+40 PGD:  100.0% --> 3.5999999999999996%
+
+Saving to attacks_train/fgsm_train_41.npy
+Saving to attacks_train/pgd_train_41.npy
+
+Accuracy
+41 FGSM: 100.0% --> 49.2%
+41 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_42.npy
+Saving to attacks_train/pgd_train_42.npy
+
+Accuracy
+42 FGSM: 100.0% --> 50.6%
+42 PGD:  100.0% --> 4.8%
+
+Saving to attacks_train/fgsm_train_43.npy
+Saving to attacks_train/pgd_train_43.npy
+
+Accuracy
+43 FGSM: 99.8% --> 47.4%
+43 PGD:  99.8% --> 5.2%
+
+Saving to attacks_train/fgsm_train_44.npy
+Saving to attacks_train/pgd_train_44.npy
+
+Accuracy
+44 FGSM: 100.0% --> 47.599999999999994%
+44 PGD:  100.0% --> 6.800000000000001%
+
+Saving to attacks_train/fgsm_train_45.npy
+Saving to attacks_train/pgd_train_45.npy
+
+Accuracy
+45 FGSM: 100.0% --> 50.8%
+45 PGD:  100.0% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_46.npy
+Saving to attacks_train/pgd_train_46.npy
+
+Accuracy
+46 FGSM: 100.0% --> 51.0%
+46 PGD:  100.0% --> 7.8%
+
+Saving to attacks_train/fgsm_train_47.npy
+Saving to attacks_train/pgd_train_47.npy
+
+Accuracy
+47 FGSM: 100.0% --> 50.6%
+47 PGD:  100.0% --> 3.5999999999999996%
+
+Saving to attacks_train/fgsm_train_48.npy
+Saving to attacks_train/pgd_train_48.npy
+
+Accuracy
+48 FGSM: 100.0% --> 53.2%
+48 PGD:  100.0% --> 6.2%
+
+Saving to attacks_train/fgsm_train_49.npy
+Saving to attacks_train/pgd_train_49.npy
+
+Accuracy
+49 FGSM: 100.0% --> 47.4%
+49 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_50.npy
+Saving to attacks_train/pgd_train_50.npy
+
+Accuracy
+50 FGSM: 100.0% --> 49.4%
+50 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_51.npy
+Saving to attacks_train/pgd_train_51.npy
+
+Accuracy
+51 FGSM: 100.0% --> 48.199999999999996%
+51 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_52.npy
+Saving to attacks_train/pgd_train_52.npy
+
+Accuracy
+52 FGSM: 100.0% --> 52.2%
+52 PGD:  100.0% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_53.npy
+Saving to attacks_train/pgd_train_53.npy
+
+Accuracy
+53 FGSM: 100.0% --> 49.4%
+53 PGD:  100.0% --> 4.3999999999999995%
+
+Saving to attacks_train/fgsm_train_54.npy
+Saving to attacks_train/pgd_train_54.npy
+
+Accuracy
+54 FGSM: 99.8% --> 49.6%
+54 PGD:  99.8% --> 4.8%
+
+Saving to attacks_train/fgsm_train_55.npy
+Saving to attacks_train/pgd_train_55.npy
+
+Accuracy
+55 FGSM: 99.8% --> 45.2%
+55 PGD:  99.8% --> 3.8%
+
+Saving to attacks_train/fgsm_train_56.npy
+Saving to attacks_train/pgd_train_56.npy
+
+Accuracy
+56 FGSM: 100.0% --> 52.2%
+56 PGD:  100.0% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_57.npy
+Saving to attacks_train/pgd_train_57.npy
+
+Accuracy
+57 FGSM: 99.8% --> 51.2%
+57 PGD:  99.8% --> 6.800000000000001%
+
+Saving to attacks_train/fgsm_train_58.npy
+Saving to attacks_train/pgd_train_58.npy
+
+Accuracy
+58 FGSM: 100.0% --> 55.00000000000001%
+58 PGD:  100.0% --> 5.6000000000000005%
+
+Saving to attacks_train/fgsm_train_59.npy
+Saving to attacks_train/pgd_train_59.npy
+
+Accuracy
+59 FGSM: 100.0% --> 51.4%
+59 PGD:  100.0% --> 6.0%
+
+Saving to attacks_train/fgsm_train_60.npy
+Saving to attacks_train/pgd_train_60.npy
+
+Accuracy
+60 FGSM: 100.0% --> 53.6%
+60 PGD:  100.0% --> 4.3999999999999995%
+
+Saving to attacks_train/fgsm_train_61.npy
+Saving to attacks_train/pgd_train_61.npy
+
+Accuracy
+61 FGSM: 99.8% --> 52.0%
+61 PGD:  99.8% --> 5.0%
+
+Saving to attacks_train/fgsm_train_62.npy
+Saving to attacks_train/pgd_train_62.npy
+
+Accuracy
+62 FGSM: 99.8% --> 48.6%
+62 PGD:  99.8% --> 4.8%
+
+Saving to attacks_train/fgsm_train_63.npy
+Saving to attacks_train/pgd_train_63.npy
+
+Accuracy
+63 FGSM: 100.0% --> 50.6%
+63 PGD:  100.0% --> 6.2%
+
+Saving to attacks_train/fgsm_train_64.npy
+Saving to attacks_train/pgd_train_64.npy
+
+Accuracy
+64 FGSM: 100.0% --> 50.6%
+64 PGD:  100.0% --> 3.0%
+
+Saving to attacks_train/fgsm_train_65.npy
+Saving to attacks_train/pgd_train_65.npy
+
+Accuracy
+65 FGSM: 100.0% --> 44.6%
+65 PGD:  100.0% --> 4.3999999999999995%
+
+Saving to attacks_train/fgsm_train_66.npy
+Saving to attacks_train/pgd_train_66.npy
+
+Accuracy
+66 FGSM: 100.0% --> 49.2%
+66 PGD:  100.0% --> 3.4000000000000004%
+
+Saving to attacks_train/fgsm_train_67.npy
+Saving to attacks_train/pgd_train_67.npy
+
+Accuracy
+67 FGSM: 100.0% --> 48.4%
+67 PGD:  100.0% --> 4.2%
+
+Saving to attacks_train/fgsm_train_68.npy
+Saving to attacks_train/pgd_train_68.npy
+
+Accuracy
+68 FGSM: 100.0% --> 50.0%
+68 PGD:  100.0% --> 6.2%
+
+Saving to attacks_train/fgsm_train_69.npy
+Saving to attacks_train/pgd_train_69.npy
+
+Accuracy
+69 FGSM: 100.0% --> 47.199999999999996%
+69 PGD:  100.0% --> 6.4%
+
+Saving to attacks_train/fgsm_train_70.npy
+Saving to attacks_train/pgd_train_70.npy
+
+Accuracy
+70 FGSM: 99.6% --> 50.0%
+70 PGD:  99.6% --> 3.0%
+
+Saving to attacks_train/fgsm_train_71.npy
+Saving to attacks_train/pgd_train_71.npy
+
+Accuracy
+71 FGSM: 100.0% --> 51.2%
+71 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_72.npy
+Saving to attacks_train/pgd_train_72.npy
+
+Accuracy
+72 FGSM: 100.0% --> 52.0%
+72 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_73.npy
+Saving to attacks_train/pgd_train_73.npy
+
+Accuracy
+73 FGSM: 100.0% --> 45.6%
+73 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_74.npy
+Saving to attacks_train/pgd_train_74.npy
+
+Accuracy
+74 FGSM: 100.0% --> 52.800000000000004%
+74 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_75.npy
+Saving to attacks_train/pgd_train_75.npy
+
+Accuracy
+75 FGSM: 100.0% --> 47.199999999999996%
+75 PGD:  100.0% --> 5.4%
+
+Saving to attacks_train/fgsm_train_76.npy
+Saving to attacks_train/pgd_train_76.npy
+
+Accuracy
+76 FGSM: 100.0% --> 48.6%
+76 PGD:  100.0% --> 5.0%
+
+Saving to attacks_train/fgsm_train_77.npy
+Saving to attacks_train/pgd_train_77.npy
+
+Accuracy
+77 FGSM: 100.0% --> 53.2%
+77 PGD:  100.0% --> 4.3999999999999995%
+
+Saving to attacks_train/fgsm_train_78.npy
+Saving to attacks_train/pgd_train_78.npy
+
+Accuracy
+78 FGSM: 99.6% --> 51.0%
+78 PGD:  99.6% --> 5.800000000000001%
+
+Saving to attacks_train/fgsm_train_79.npy
+Saving to attacks_train/pgd_train_79.npy
+
+Accuracy
+79 FGSM: 99.8% --> 49.6%
+79 PGD:  99.8% --> 5.0%
+
+Saving to attacks_train/fgsm_train_80.npy
+Saving to attacks_train/pgd_train_80.npy
+
+Accuracy
+80 FGSM: 100.0% --> 49.0%
+80 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_81.npy
+Saving to attacks_train/pgd_train_81.npy
+
+Accuracy
+81 FGSM: 100.0% --> 48.199999999999996%
+81 PGD:  100.0% --> 6.0%
+
+Saving to attacks_train/fgsm_train_82.npy
+Saving to attacks_train/pgd_train_82.npy
+
+Accuracy
+82 FGSM: 100.0% --> 51.0%
+82 PGD:  100.0% --> 3.5999999999999996%
+
+Saving to attacks_train/fgsm_train_83.npy
+Saving to attacks_train/pgd_train_83.npy
+
+Accuracy
+83 FGSM: 100.0% --> 50.6%
+83 PGD:  100.0% --> 6.2%
+
+Saving to attacks_train/fgsm_train_84.npy
+Saving to attacks_train/pgd_train_84.npy
+
+Accuracy
+84 FGSM: 100.0% --> 50.4%
+84 PGD:  100.0% --> 4.0%
+
+Saving to attacks_train/fgsm_train_85.npy
+Saving to attacks_train/pgd_train_85.npy
+
+Accuracy
+85 FGSM: 99.8% --> 51.0%
+85 PGD:  99.8% --> 5.0%
+
+Saving to attacks_train/fgsm_train_86.npy
+Saving to attacks_train/pgd_train_86.npy
+
+Accuracy
+86 FGSM: 100.0% --> 49.4%
+86 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_87.npy
+Saving to attacks_train/pgd_train_87.npy
+
+Accuracy
+87 FGSM: 100.0% --> 49.4%
+87 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_88.npy
+Saving to attacks_train/pgd_train_88.npy
+
+Accuracy
+88 FGSM: 99.8% --> 50.6%
+88 PGD:  99.8% --> 3.4000000000000004%
+
+Saving to attacks_train/fgsm_train_89.npy
+Saving to attacks_train/pgd_train_89.npy
+
+Accuracy
+89 FGSM: 99.8% --> 51.4%
+89 PGD:  99.8% --> 4.6%
+
+Saving to attacks_train/fgsm_train_90.npy
+Saving to attacks_train/pgd_train_90.npy
+
+Accuracy
+90 FGSM: 100.0% --> 54.2%
+90 PGD:  100.0% --> 6.800000000000001%
+
+Saving to attacks_train/fgsm_train_91.npy
+Saving to attacks_train/pgd_train_91.npy
+
+Accuracy
+91 FGSM: 99.6% --> 50.2%
+91 PGD:  99.6% --> 3.2%
+
+Saving to attacks_train/fgsm_train_92.npy
+Saving to attacks_train/pgd_train_92.npy
+
+Accuracy
+92 FGSM: 99.8% --> 53.800000000000004%
+92 PGD:  99.8% --> 5.2%
+
+Saving to attacks_train/fgsm_train_93.npy
+Saving to attacks_train/pgd_train_93.npy
+
+Accuracy
+93 FGSM: 99.8% --> 50.2%
+93 PGD:  99.8% --> 6.2%
+
+Saving to attacks_train/fgsm_train_94.npy
+Saving to attacks_train/pgd_train_94.npy
+
+Accuracy
+94 FGSM: 100.0% --> 46.0%
+94 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_95.npy
+Saving to attacks_train/pgd_train_95.npy
+
+Accuracy
+95 FGSM: 100.0% --> 49.8%
+95 PGD:  100.0% --> 4.2%
+
+Saving to attacks_train/fgsm_train_96.npy
+Saving to attacks_train/pgd_train_96.npy
+
+Accuracy
+96 FGSM: 100.0% --> 53.6%
+96 PGD:  100.0% --> 4.6%
+
+Saving to attacks_train/fgsm_train_97.npy
+Saving to attacks_train/pgd_train_97.npy
+
+Accuracy
+97 FGSM: 100.0% --> 48.8%
+97 PGD:  100.0% --> 3.5999999999999996%
+
+Saving to attacks_train/fgsm_train_98.npy
+Saving to attacks_train/pgd_train_98.npy
+
+Accuracy
+98 FGSM: 100.0% --> 48.4%
+98 PGD:  100.0% --> 5.2%
+
+Saving to attacks_train/fgsm_train_99.npy
+Saving to attacks_train/pgd_train_99.npy
+
+Accuracy
+99 FGSM: 99.8% --> 47.599999999999994%
+99 PGD:  99.8% --> 4.3999999999999995%
+
+Attacking sepreresnet56_cifar10 with test set
+
+Saving to attacks_test/fgsm_test_0.npy
+Saving to attacks_test/pgd_test_0.npy
+
+Accuracy
+0 FGSM: 94.39999999999999% --> 45.0%
+0 PGD:  94.39999999999999% --> 2.8000000000000003%
+
+Saving to attacks_test/fgsm_test_1.npy
+Saving to attacks_test/pgd_test_1.npy
+
+Accuracy
+1 FGSM: 95.6% --> 46.800000000000004%
+1 PGD:  95.6% --> 4.6%
+
+Saving to attacks_test/fgsm_test_2.npy
+Saving to attacks_test/pgd_test_2.npy
+
+Accuracy
+2 FGSM: 96.8% --> 49.8%
+2 PGD:  96.8% --> 5.0%
+
+Saving to attacks_test/fgsm_test_3.npy
+Saving to attacks_test/pgd_test_3.npy
+
+Accuracy
+3 FGSM: 95.0% --> 48.8%
+3 PGD:  95.0% --> 5.2%
+
+Saving to attacks_test/fgsm_test_4.npy
+Saving to attacks_test/pgd_test_4.npy
+
+Accuracy
+4 FGSM: 93.8% --> 45.4%
+4 PGD:  93.8% --> 4.6%
+
+Saving to attacks_test/fgsm_test_5.npy
+Saving to attacks_test/pgd_test_5.npy
+
+Accuracy
+5 FGSM: 96.0% --> 48.199999999999996%
+5 PGD:  96.0% --> 4.0%
+
+Saving to attacks_test/fgsm_test_6.npy
+Saving to attacks_test/pgd_test_6.npy
+
+Accuracy
+6 FGSM: 96.0% --> 48.0%
+6 PGD:  96.0% --> 6.800000000000001%
+
+Saving to attacks_test/fgsm_test_7.npy
+Saving to attacks_test/pgd_test_7.npy
+
+Accuracy
+7 FGSM: 94.6% --> 50.0%
+7 PGD:  94.6% --> 3.4000000000000004%
+
+Saving to attacks_test/fgsm_test_8.npy
+Saving to attacks_test/pgd_test_8.npy
+
+Accuracy
+8 FGSM: 96.0% --> 48.8%
+8 PGD:  96.0% --> 6.800000000000001%
+
+Saving to attacks_test/fgsm_test_9.npy
+Saving to attacks_test/pgd_test_9.npy
+
+Accuracy
+9 FGSM: 93.2% --> 47.8%
+9 PGD:  93.2% --> 7.199999999999999%
+
+Saving to attacks_test/fgsm_test_10.npy
+Saving to attacks_test/pgd_test_10.npy
+
+Accuracy
+10 FGSM: 96.6% --> 46.2%
+10 PGD:  96.6% --> 3.5999999999999996%
+
+Saving to attacks_test/fgsm_test_11.npy
+Saving to attacks_test/pgd_test_11.npy
+
+Accuracy
+11 FGSM: 94.6% --> 40.400000000000006%
+11 PGD:  94.6% --> 4.2%
+
+Saving to attacks_test/fgsm_test_12.npy
+Saving to attacks_test/pgd_test_12.npy
+
+Accuracy
+12 FGSM: 96.6% --> 44.6%
+12 PGD:  96.6% --> 4.0%
+
+Saving to attacks_test/fgsm_test_13.npy
+Saving to attacks_test/pgd_test_13.npy
+
+Accuracy
+13 FGSM: 96.0% --> 43.0%
+13 PGD:  96.0% --> 3.5999999999999996%
+
+Saving to attacks_test/fgsm_test_14.npy
+Saving to attacks_test/pgd_test_14.npy
+
+Accuracy
+14 FGSM: 95.6% --> 46.400000000000006%
+14 PGD:  95.6% --> 3.8%
+
+Saving to attacks_test/fgsm_test_15.npy
+Saving to attacks_test/pgd_test_15.npy
+
+Accuracy
+15 FGSM: 94.8% --> 44.4%
+15 PGD:  94.8% --> 3.8%
+
+Saving to attacks_test/fgsm_test_16.npy
+Saving to attacks_test/pgd_test_16.npy
+
+Accuracy
+16 FGSM: 96.0% --> 44.4%
+16 PGD:  96.0% --> 2.8000000000000003%
+
+Saving to attacks_test/fgsm_test_17.npy
+Saving to attacks_test/pgd_test_17.npy
+
+Accuracy
+17 FGSM: 94.19999999999999% --> 47.0%
+17 PGD:  94.19999999999999% --> 4.3999999999999995%
+
+Saving to attacks_test/fgsm_test_18.npy
+Saving to attacks_test/pgd_test_18.npy
+
+Accuracy
+18 FGSM: 94.39999999999999% --> 45.6%
+18 PGD:  94.39999999999999% --> 3.8%
+
+Saving to attacks_test/fgsm_test_19.npy
+Saving to attacks_test/pgd_test_19.npy
+
+Accuracy
+19 FGSM: 96.2% --> 49.8%
+19 PGD:  96.2% --> 5.6000000000000005%
+
+Attack complete
+[I] The last command took 5442.671 seconds.

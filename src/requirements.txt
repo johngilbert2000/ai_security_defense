@@ -1,0 +1,6 @@
+tensorflow==2.1
+tf2cv
+numpy
+matplotlib
+pillow
+h5py<3.0.0

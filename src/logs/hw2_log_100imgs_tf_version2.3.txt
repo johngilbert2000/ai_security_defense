@@ -1,0 +1,25 @@
+[I] ◆ HW2_FINAL ❯❯❯    python hw2.py                                                                        (tf2) 
+
+Current Tensorflow Version: 2.3.1
+Models loaded successfully (10.989900 s)
+100 images loaded from example_folder/  (11.012064 s)
+
+  1.png
+  2.png
+  3.png
+  4.png
+  5.png
+  6.png
+  7.png
+  8.png
+  9.png
+  10.png
+  11.png
+  12.png
+  ...
+  (etc.)
+
+Inference performed on 100 images (0.494452 s)
+Predictions written to file (0.000220 s)
+
+Total execution time: 11.540879 s

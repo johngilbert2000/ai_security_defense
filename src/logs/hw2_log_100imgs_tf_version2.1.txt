@@ -1,0 +1,28 @@
+[I] ◆ HW2_FINAL ❯❯❯    python hw2.py                                                                     (oldtf2) 
+
+Current Tensorflow Version: 2.1.0
+Failed to load models. Rebuilding with model weights
+Upgrade Tensorflow version to >= 2.3.1 to load full models
+Model download time: 1.776131 s
+Models rebuilt with saved weights (0.194073 s)
+100 images loaded from example_folder/  (0.020522 s)
+
+  1.png
+  2.png
+  3.png
+  4.png
+  5.png
+  6.png
+  7.png
+  8.png
+  9.png
+  10.png
+  11.png
+  12.png
+  ...
+  (etc.)
+
+Inference performed on 100 images (0.258405 s)
+Predictions written to file (0.000220 s)
+
+Total execution time: 2.393882 s

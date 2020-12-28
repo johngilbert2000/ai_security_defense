@@ -1,0 +1,268 @@
+[I] ◆ HW2_FINAL ❯❯❯ python saftyencoder.py                                                                           (tf2)
+2020-11-24 15:53:53.200857: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-24 15:53:53.200880: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do nothave a GPU set up on your machine.
+2020-11-24 15:53:54.341332: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-24 15:53:54.345292: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-11-24 15:53:54.345914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2020-11-24 15:53:54.345990: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.346054: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.346143: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.346215: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.346304: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.346392: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory
+2020-11-24 15:53:54.352062: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-11-24 15:53:54.352077: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1753] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-11-24 15:53:54.352356: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-24 15:53:54.377550: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3199980000 Hz
+2020-11-24 15:53:54.378517: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55616834edb0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-24 15:53:54.378532: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-11-24 15:53:54.379993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-24 15:53:54.380003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]
+Epoch 1/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0072
+Epoch 2/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0026
+Epoch 3/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0020
+Epoch 4/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0018
+Epoch 5/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0018
+Epoch 6/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 7/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 8/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 9/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 10/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 11/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0017
+Epoch 12/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 13/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 14/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 15/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 16/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 17/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 18/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 19/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 20/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 21/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 22/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 23/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 24/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 25/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 26/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 27/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 28/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 29/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 30/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 31/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 32/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 33/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 34/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 35/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 36/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 37/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 38/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 39/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 40/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 41/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 42/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 43/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 44/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 45/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 46/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 47/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 48/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 49/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 50/100
+2344/2344 [==============================] - 37s 16ms/step - loss: 0.0016
+Epoch 51/100
+2344/2344 [==============================] - 36s 15ms/step - loss: 0.0016
+Epoch 52/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 53/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 54/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 55/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 56/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 57/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 58/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 59/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 60/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 61/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 62/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0016
+Epoch 63/100
+2344/2344 [==============================] - 36s 15ms/step - loss: 0.0016
+Epoch 64/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 65/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 66/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 67/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 68/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 69/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 70/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 71/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 72/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 73/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 74/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 75/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 76/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 77/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 78/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 79/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 80/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 81/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 82/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 83/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 84/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 85/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 86/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 87/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 88/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 89/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 90/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 91/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 92/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 93/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 94/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 95/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 96/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 97/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 98/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 99/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+Epoch 100/100
+2344/2344 [==============================] - 35s 15ms/step - loss: 0.0015
+
+Saving model to model/safety_AE
+WARNING:tensorflow:From /home2/john_gilbert/anaconda3/envs/tf2/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home2/john_gilbert/anaconda3/envs/tf2/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in afuture version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2020-11-24 16:52:13.250464: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 16, 16, 16)        448
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 8, 8, 8)           1160
+=================================================================
+Total params: 1,608
+Trainable params: 1,608
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d_transpose (Conv2DTran (None, 16, 16, 8)         584
+_________________________________________________________________
+conv2d_transpose_1 (Conv2DTr (None, 32, 32, 16)        1168
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 32, 32, 3)         435
+=================================================================
+Total params: 2,187
+Trainable params: 2,187
+Non-trainable params: 0
+_________________________________________________________________
+
+Saving AE test outputs to AE_test
+Saving AE training outputs to AE_train
+0: [0, 10000]
+1: [10000, 20000]
+2: [20000, 30000]
+3: [30000, 40000]
+4: [40000, 50000]
+[I] The last command took 3517.778 seconds.

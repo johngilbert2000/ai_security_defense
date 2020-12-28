@@ -1,0 +1,9 @@
+[I] ◆ HW2_FINAL ❯❯❯    python --version                                                                   (oldpy) 
+
+Python 3.5.6 :: Anaconda, Inc.
+
+[I] ◆ HW2_FINAL ❯❯❯    python hw2_oldpython.py                                                            (oldpy) 
+
+Use Python >= 3.5 with hw2.py for extra runtime information
+
+Total execution time: 2.528295 s
